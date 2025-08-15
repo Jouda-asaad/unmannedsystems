@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en" class="dark-theme">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unmanned Systems — UAS & Drone Tech</title>
+    <meta name="description" content="Unmanned Systems builds Unmanned Aerial Systems (UAS) and related technologies." />
+    <meta name="theme-color" content="#0aff9d" />
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="styles.css" as="style" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="Unmanned Systems home">
+          <span class="prompt">unmanned@pi:~$</span> <span class="brand-name">Unmanned Systems</span>
+        </a>
+        <div class="header-controls">
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+            <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <circle cx="12" cy="12" r="4"/>
+              <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 6.34L4.93 4.93M19.07 19.07l-1.41-1.41"/>
+            </svg>
+            <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+            </svg>
+          </button>
+          <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-controls="primaryNav" aria-expanded="false">
+            <span class="kebab" aria-hidden="true"></span>
+          </button>
+        </div>
+        <nav class="nav" id="primaryNav">
+          <a href="#about">about</a>
+          <a href="#tech">tech</a>
+          <a href="#platforms">platforms</a>
+          <a href="#use-cases">use-cases</a>
+          <a href="#demos">demos</a>
+          <a href="#safety">safety</a>
+          <a href="#contact">contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home" class="container">
+      <section class="hero" aria-label="Intro">
+        <h1>
+          <span class="muted">$</span>
+          <span class="typewriter" id="typewriter">We build drones.</span>
+          <span class="caret" aria-hidden="true"></span>
+        </h1>
+        <p class="sub">UAS (drones) and related technologies — engineered for the real world.</p>
+        <div class="cta-row">
+          <a class="button primary" target="_blank" rel="noopener" href="https://www.instagram.com/unmannedsystems.utmkl/">instagram ↗</a>
+          <a class="button ghost" href="#about">learn more</a>
+          <a class="button ghost" href="#contact">request a quote</a>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <h2><span class="hash">#</span> about</h2>
+        <p>
+          We are a startup focused on Unmanned Aerial Systems (UAS). Our mission is to design and
+          build dependable, efficient drone platforms and the software that powers them.
+        </p>
+      </section>
+
+      <section id="tech" class="section grid">
+        <h2><span class="hash">#</span> tech</h2>
+        <ul class="features">
+          <li>
+            <span class="tag">airframes</span>
+            Lightweight multirotor and fixed-wing platforms optimized for field performance.
+          </li>
+          <li>
+            <span class="tag">autonomy</span>
+            Practical navigation, control, and safety systems with a focus on reliability.
+          </li>
+          <li>
+            <span class="tag">payloads</span>
+            Modular sensor bays for inspection, mapping, and research applications.
+          </li>
+          <li>
+            <span class="tag">ground</span>
+            Operator-friendly ground tools with a clean, fast, terminal-inspired UI.
+          </li>
+        </ul>
+      </section>
+
+      <section id="platforms" class="section">
+        <h2><span class="hash">#</span> platforms</h2>
+        <ul class="features">
+          <li>
+            <span class="tag">multirotor</span>
+            40+ min flight time • swappable batteries • modular payload bay.
+          </li>
+          <li>
+            <span class="tag">fixed‑wing</span>
+            Long‑range survey platform • VTOL option • efficient cruise profiles.
+          </li>
+        </ul>
+      </section>
+
+      <section id="use-cases" class="section">
+        <h2><span class="hash">#</span> use-cases</h2>
+        <ul class="features">
+          <li>
+            <span class="tag">inspection</span>
+            Utilities, solar, wind — safe stand‑off imaging and reporting.
+          </li>
+          <li>
+            <span class="tag">mapping</span>
+            Orthomosaic, DSM/DTM, corridor mapping with RTK/PPK options.
+          </li>
+          <li>
+            <span class="tag">research</span>
+            Modular sensors and open interfaces for rapid experimentation.
+          </li>
+        </ul>
+      </section>
+
+      <section id="demos" class="section grid">
+        <h2><span class="hash">#</span> demos</h2>
+        <div class="cta-row">
+          <a class="button primary" target="_blank" rel="noopener" href="https://your-demo-link.example">watch flight demo ↗</a>
+          <a class="button ghost" href="#contact">request a demo</a>
+        </div>
+      </section>
+
+      <section id="safety" class="section">
+        <h2><span class="hash">#</span> safety & compliance</h2>
+        <ul class="features">
+          <li>
+            <span class="tag">redundancy</span>
+            Fail‑safes for power, comms, and GNSS • geofencing • RTH logic.
+          </li>
+          <li>
+            <span class="tag">compliance</span>
+            Operational guidance for local regs; logs and checklists built‑in.
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact" class="section">
+        <h2><span class="hash">#</span> contact</h2>
+        <p>
+          Reach out via email:
+          <a href="mailto:hello@unmanned.systems">hello@unmanned.systems</a>
+          or follow our work on Instagram:
+          <a target="_blank" rel="noopener" href="https://www.instagram.com/unmannedsystems.utmkl/">@unmannedsystems.utmkl</a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© <span id="year"></span> Unmanned Systems</span>
+        <span class="dot" aria-hidden="true">•</span>
+        <span>fast, minimal, offline-ready</span>
+        <span class="dot" aria-hidden="true">•</span>
+        <span>hosted on Raspberry Pi</span>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+  </html>
+
+
