@@ -16,6 +16,7 @@
       if (e.target && e.target.tagName === 'A') {
         nav.classList.remove('open');
         toggle.setAttribute('aria-expanded', 'false');
+        e.stopPropagation(); // Prevent event from bubbling up
       }
     });
     // Close on outside click
